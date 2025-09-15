@@ -1,0 +1,10 @@
+@@ (Add this to your main README under "Backend Setup")
++### OpenAI API Key
++1. Go to backend/ and copy `.env.example` to `.env`
++2. Paste your rotated key:
++   `OPENAI_API_KEY=sk-...`
++3. Never commit `.env`
++4. Start backend after adding the key:
++   `npm run start`
++
++If the key is missing, the backend returns placeholder Markdown.
